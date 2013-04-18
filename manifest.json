@@ -1,5 +1,6 @@
 {
    "title":"Basic Bash Commands",
+   "author":"Arvid Kahl",
    "description":"Learn to use the Terminal with a selection of the most commonly used commands",
    "path":"BasicBashCommands.kdlecture",
    "originUrl":"https://github.com/arvidkahl/BasicBashCommands.kdlecture.git",
