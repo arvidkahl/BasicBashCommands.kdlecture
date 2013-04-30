@@ -50,6 +50,21 @@
          "codeHintText":"Try the `ls` command to see the contents of your current work directory.",
          "taskText":"Enter the command to see the contents of your directory.",
          "lectureText":"To see the contents of your directory, you have to give the order to __l__i__s__t everything. The `ls` command will help you with that."
+      },
+      {
+         "title":"Lecture 4: How do I move a file?",
+         "summary":"Knowing how to move files (__mv__)",
+         "expectedResults":null,
+         "submitSuccess":"Well done.",
+         "submitFailure":"Not quite.",
+         "language":"shell",
+         "code":"",
+         "execute":"",
+         "previewType":"terminal",
+         "files":["lecture04.sh","content.txt"],
+         "codeHintText":"Make sure you are in the right directory (`lecture`) by checking with `pwd`. If you are not there, `cd` into that directory. Then run `mv content.txt new.txt` to rename/move this file.",
+         "taskText":"Inside the `lecture` folder, move the file named `content.txt` to `new.txt`, essentially renaming the file. To see if your move command worked, you can try `ls` again.",
+         "lectureText":"Moving files is fairly straightforward, you want to use the __m__o__v__e command `mv` for that purpose. The syntax is `mv source target`."
       }
    ]
 }
