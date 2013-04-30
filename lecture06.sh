@@ -1,6 +1,9 @@
-# List the directory.
+# Deleting files is a DANGEROUS and IRREVERSIBLE operation
+# The command to call is: 
 
-ls
+
+# rm filename
+
 
 # If you don't see the files you should be seeing, uncomment 
 # the following command, it will change the working directory 
@@ -9,8 +12,8 @@ ls
 # cd "Applications/KodeLectures.kdapp/courses/BasicBashCommands.kdlecture"
 
 
-# If you want to learn more about the ls command, type:
+# If you want to learn more about the rm command, type:
 # 
-# man ls
+# man rm
 # 
 # (You can leave the man page by pressing Q)

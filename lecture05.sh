@@ -1,6 +1,10 @@
-# List the directory.
+# To create a file, call:
+# touch filename
 
-ls
+
+# To copy it, call:
+# cp source target
+
 
 # If you don't see the files you should be seeing, uncomment 
 # the following command, it will change the working directory 
@@ -9,8 +13,12 @@ ls
 # cd "Applications/KodeLectures.kdapp/courses/BasicBashCommands.kdlecture"
 
 
-# If you want to learn more about the ls command, type:
+# If you want to learn more about the touch command, type:
 # 
-# man ls
+# man touch
+#
+# For the cp command, use:
+#
+# man cp
 # 
 # (You can leave the man page by pressing Q)

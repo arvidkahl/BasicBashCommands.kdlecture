@@ -47,6 +47,7 @@
          "execute":"",
          "previewType":"terminal",
          "files":["lecture03.sh"],
+         "codeHint":"`ls`",
          "codeHintText":"Try the `ls` command to see the contents of your current work directory.",
          "taskText":"Enter the command to see the contents of your directory.",
          "lectureText":"To see the contents of your directory, you have to give the order to __l__i__s__t everything. The `ls` command will help you with that."
@@ -62,9 +63,42 @@
          "execute":"",
          "previewType":"terminal",
          "files":["lecture04.sh","content.txt"],
+         "codeHint":"`mv content.txt new.txt`",
          "codeHintText":"Make sure you are in the right directory (`lecture`) by checking with `pwd`. If you are not there, `cd` into that directory. Then run `mv content.txt new.txt` to rename/move this file.",
          "taskText":"Inside the `lecture` folder, move the file named `content.txt` to `new.txt`, essentially renaming the file. To see if your move command worked, you can try `ls` again.",
          "lectureText":"Moving files is fairly straightforward, you want to use the __m__o__v__e command `mv` for that purpose. The syntax is `mv source target`."
+      },
+      {
+         "title":"Lecture 5: How do I create and copy files?",
+         "summary":"Knowing how to create and copy files (__touch__ and __cp__)",
+         "expectedResults":null,
+         "submitSuccess":"Well done.",
+         "submitFailure":"Not quite.",
+         "language":"shell",
+         "code":"",
+         "execute":"",
+         "previewType":"terminal",
+         "files":["lecture05.sh"],
+         "codeHint":"`touch solution.txt; cp solution.txt other.txt`",
+         "codeHintText":"To create the file, use `touch solution.txt`. Make sure the file is there by listing the directory contents with `ls`. Once your file is there, use `cp solution.txt other.txt`. Again, make sure your file is there.",
+         "taskText":"Inside the `lectures` folder, create a file called `solution.txt` and copy that file into a file called `other.txt`",
+         "lectureText":"To create a file, you can use an editor or manually create the file with the `touch` command. The syntax for this command is `touch filename`\n\nCopying a file is done with the `cp` command, short for __c__o__p__y. The syntax for that is `cp source target`"
+      },
+      {
+         "title":"Lecture 6: How do I remove files?",
+         "summary":"Knowing how to remove files (__rm__)",
+         "expectedResults":null,
+         "submitSuccess":"Well done.",
+         "submitFailure":"Not quite.",
+         "language":"shell",
+         "code":"",
+         "execute":"",
+         "previewType":"terminal",
+         "files":["lecture06.sh"],
+         "codeHint":"`rm content.txt` or `rm solution.txt`",
+         "codeHintText":"To delete the file, use `rm content.txt` or `rm solution.txt`",
+         "taskText":"Delete the file `content.txt` or the file `solution.txt`, whichever is present in your working directory. Use the `rm` command for that.",
+         "lectureText":"First off: removing files is a dangerous operation, make sure you delete the right things. Deleting a file in a shell is final and (unless you run some serious recovery operation) irreversible. The command to __r__e__m__ove a file is `rm`, with the syntax being `rm filename`. `rm` allows for recursive deletion of files and folder, so be careful what parameters you pass to the command."
       }
    ]
 }
